@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+    <div t-name="oy_xlsx_preview.XlsxPreview">
+        <iframe t-att-src="url" scrolling="no" frameborder="0" style="position: relative; height: 75vh; width: 100%;"/>
+        <div class="d-flex justify-content-end m-2">
+            <a class="btn btn-primary text-right" t-att-href="download"  role="button">Download</a>
+        </div>
+    </div>
+</templates>
